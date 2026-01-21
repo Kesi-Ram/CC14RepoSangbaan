@@ -1,0 +1,47 @@
+body{
+    margin: 1.5px;
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+#header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xxx-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+li .label{
+    font-weight: bold;
+    font-size: large;
+}
+#information{
+    
+}
+#alden{
+    margin: auto;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+li{
+    list-style: none;
+}
+hr{
+    height: 5px;
+    background-color: black;
+}
+.container{
+    display: flex;
+}
+.motto{
+    font-style: italic;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
