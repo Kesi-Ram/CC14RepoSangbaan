@@ -15,13 +15,17 @@ li .label{
     font-size: large;
 }
 #information{
-    
+    max-width: 1500px;
+    margin-left: 190px;
+    width: 50%;
 }
 #alden{
     margin: auto;
+    max-width: 1500px;
     padding: 20px;
-    width: 300px;
-    height: 300px;
+    width: 90%;
+    height: 70%;
+    margin-left: 100px;
 }
 li{
     list-style: none;
@@ -44,4 +48,26 @@ hr{
 a{
     text-decoration: none;
     color: black;
+}
+#contacts{
+    justify-content: right;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+#contacts li a{
+
+    display: block;
+    padding: 10px;
+    border-radius: 50px;
+}
+a:hover{
+    background-color: lightblue;
+    transition: 0.5s ease-in-out;
+}
+hr{
+    border-radius: 5px;
+}
+#alden{
+    border-radius: 50%;
 }
